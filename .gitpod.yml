@@ -1,0 +1,3 @@
+tasks:
+  - init: docker-compose up
+    command: sleep infinity
