@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  nodered:
+    build: .
+    ports:
+      - "1880:1880"
+    volumes:
+      - nodered_data:/data
+
+  mosquitto:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+volumes:
+  nodered_data:
