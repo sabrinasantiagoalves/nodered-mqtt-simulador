@@ -25,9 +25,10 @@ Este projeto demonstra o uso de tecnologias IoT para monitoramento e controle au
 - **Broker:** `broker.hivemq.com`
 - **Tópico de publicação:** `nivelagua/sabrina`
 - **Formato das mensagens:**
-```"💧 Válvula ABERTA (nível: %ldcm)"
-   "🚫 Válvula FECHADA (nível: %ldcm)"
-   "🔄 Nível dentro do intervalo (%ldcm). Nenhuma ação."
+```
+"💧 Válvula ABERTA (nível: %ldcm)"
+"🚫 Válvula FECHADA (nível: %ldcm)"
+"🔄 Nível dentro do intervalo (%ldcm). Nenhuma ação."
 ```
 
 ## 🛠️ Como Executar
